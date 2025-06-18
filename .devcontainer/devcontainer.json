@@ -12,6 +12,9 @@
     "debug.node.autoAttach": "disabled"
   },
   "dockerComposeFile": "./docker-compose.yml",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
   "service": "frappe",
   "workspaceFolder": "/workspace/development",
   "shutdownAction": "stopCompose",
